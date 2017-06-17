@@ -1,6 +1,7 @@
-body {
+* {
   width: auto;
-  margin: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 fieldset {
@@ -8,13 +9,17 @@ fieldset {
   background-image: url("../images/list-bg.png");
 }
 
-table {
+table td {
   border: 1px solid black;
-
+  text-align: left;
 }
 
 td {
   font-family: MS Comic Sans, cursive;
+}
+
+.done {
+  text-decoration: line-through;
 }
 
 hr {
@@ -25,9 +30,34 @@ hr {
 }
 
 hr::after {
-  content: url("../images/logo.png");
+  /*content: url("../images/logo.png");*/
   display: inline-block;
   position: relative;
   top: -0.7em;
   padding: 0 0.25em;
+}
+
+/*section {
+  display: flex;
+  justify-content: space-between;
+}*/
+
+#vanessa {
+
+}
+
+.button {
+  color: white;
+  border: none;
+  background-color: #d8652f;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  float: right;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  line-height: 2px;
 }
