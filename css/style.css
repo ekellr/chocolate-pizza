@@ -61,3 +61,44 @@ footer {
   text-align: center;
   line-height: 2px;
 }
+
+.description {
+  font-size: 10px;
+  color: grey;
+}
+
+.rec-title{
+  width: 40;
+  height:40;
+  align: left;
+  line-height: 60%;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+
+.img{
+  float: right;
+}
+
+.img2{
+  float: right;
+}
+
+.del{
+  float: left;
+}
+
+h1{
+  font-family: Oswald;
+  line-height: 70%;
+}
+
+.date{
+  font-size: 10px;
+  color: #D3D3D3;
+}
+
+.title{
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
