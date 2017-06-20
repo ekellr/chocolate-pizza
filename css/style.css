@@ -7,15 +7,15 @@
 fieldset {
   border: none;
   background-image: url("../images/list-bg.png");
+  background-repeat: no-repeat;
 }
 
 table td {
-  border: 1px solid black;
   text-align: left;
 }
 
 td {
-  font-family: MS Comic Sans, cursive;
+  font-family: 'MS Comic Sans', cursive;
 }
 
 .done {
@@ -30,20 +30,10 @@ hr {
 }
 
 hr::after {
-  /*content: url("../images/logo.png");*/
   display: inline-block;
   position: relative;
   top: -0.7em;
   padding: 0 0.25em;
-}
-
-/*section {
-  display: flex;
-  justify-content: space-between;
-}*/
-
-#vanessa {
-
 }
 
 .button {
@@ -76,6 +66,10 @@ footer {
   font-size: 30px;
 }
 
+#logo {
+  float: left;
+}
+
 .img{
   float: right;
 }
@@ -84,12 +78,8 @@ footer {
   float: right;
 }
 
-.del{
-  float: left;
-}
-
 h1{
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   line-height: 70%;
 }
 
